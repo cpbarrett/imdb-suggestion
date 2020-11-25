@@ -1,3 +1,4 @@
-import psycopg2
+import sqlite3
 
-f_contents = open('', 'r')
+conn = sqlite3.connect('test.db')
+print('db connected')

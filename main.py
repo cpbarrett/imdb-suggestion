@@ -1,6 +1,5 @@
-"""runs flask api and serves webpages"""
-import pandas as pd
-import dash_app
+"""runs flask api and serves web pages"""
+import database
 from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
